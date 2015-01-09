@@ -8,7 +8,7 @@ php:
 
 before_script:
     - composer self-update
-    - composer --${ES_REQUIRE} --prefer-source install
+    - composer install
 
 script:
     - mkdir -p Build/Logs
