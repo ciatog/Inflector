@@ -1,8 +1,9 @@
 {
-    "name": "ciatog/Inflector",
+    "name": "ciatog/inflector",
     "description": "Simple PHP Inflector",
     "keywords": ["inflector"],
     "type": "library",
+    "homepage": "https://github.com/ciatog/PhpInflector",
     "license": "MIT",
     "authors": [
         {
@@ -10,6 +11,9 @@
             "homepage": "http://www.keith-webster.com/"
         }
     ],
+    "require": {
+        "php": ">=5.3.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "4.1.*",
         "satooshi/php-coveralls": "dev-master"
